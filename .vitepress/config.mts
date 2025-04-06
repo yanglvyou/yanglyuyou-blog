@@ -3,8 +3,9 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: 'zh-CN',
-  title: 'My Awesome Project',
-  description: 'A VitePress Site',
+  title: 'YangLyuYou Blog',
+  description: 'Code, Design, Repeat',
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
