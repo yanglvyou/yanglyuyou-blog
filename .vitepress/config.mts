@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/yanglyuyou-blog/',
   lang: 'zh-CN',
   title: 'YangLyuYou Blog',
   description: 'Code, Design, Repeat',
